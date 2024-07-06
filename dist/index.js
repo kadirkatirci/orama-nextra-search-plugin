@@ -172,7 +172,7 @@ function OramaSearchPlugin(_param) {
         className: "nx-text-xs"
     }, "⌘"), " K"))), searchTerm && results && /*#__PURE__*/ React.createElement(React.Fragment, null, results.count === 0 && /*#__PURE__*/ React.createElement("div", {
         className: "nx-block nx-select-none nx-p-8 nx-text-center nx-text-sm nx-text-gray-400"
-    }, "No results found."), results.count > 0 && /*#__PURE__*/ React.createElement(React.Fragment, null, /*#__PURE__*/ React.createElement("div", {
+    }, "Sonuç bulunamadı."), results.count > 0 && /*#__PURE__*/ React.createElement(React.Fragment, null, /*#__PURE__*/ React.createElement("div", {
         ref: wrapperRef
     }, /*#__PURE__*/ React.createElement("ul", {
         className: wrapperUl,
